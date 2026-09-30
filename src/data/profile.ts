@@ -2,7 +2,7 @@ export const profile = {
   name: "Don-Prince C. Emmanuel",
   shortName: "Don-Prince",
   title: "Data Analyst",
-  disciplines: ["SQL", "Power BI", "Excel"],
+  disciplines: ["SQL", "Power BI", "Excel", "Python"],
   location: "Port Harcourt, Rivers State, Nigeria",
   email: "donprinceemmanuel33@gmail.com",
   phone: "08076341597",
@@ -13,7 +13,7 @@ export const profile = {
   language: "Fluent English",
   portrait: "/images/profile.jpeg",
   summary:
-    "Detail-oriented data analyst with a B.Sc. in Accounting and hands-on work in PostgreSQL, Power BI, and Excel for data cleaning, analysis, visualization, and reporting.",
+    "Detail-oriented data analyst with a B.Sc. in Accounting and hands-on work in Python (NumPy, Pandas, and Matplotlib), PostgreSQL, Power BI, and Excel for data cleaning, analysis, visualization, and reporting.",
   skills: [
     {
       group: "SQL",
@@ -34,6 +34,10 @@ export const profile = {
     {
       group: "Excel",
       items: ["Advanced Excel", "PivotTables", "Power Query"],
+    },
+    {
+      group: "Python",
+      items: ["NumPy", "Pandas", "Matplotlib"],
     },
     {
       group: "Analytics",
