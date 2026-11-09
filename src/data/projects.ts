@@ -15,6 +15,10 @@ export type Project = {
   tools: string[];
   images: ProjectImage[];
   metric: string;
+  link?: {
+    href: string;
+    label: string;
+  };
 };
 
 export const projects: Project[] = [
@@ -88,5 +92,31 @@ export const projects: Project[] = [
       },
     ],
     metric: "₦36M profit",
+  },
+  {
+    id: "anime",
+    title: "Anime dataset analytics",
+    eyebrow: "2020–2026",
+    summary:
+      "114 titles, 70M members, and an average score of 8.21 across 53 studios and 12 genres.",
+    question:
+      "What do fans actually love, which studios are getting it right, and where is the industry heading?",
+    built:
+      "An end-to-end study: Python to scrape the dataset, SQL to structure it, Excel for outlier checks and validation, Power BI for the dashboard, and a site to present the work.",
+    finding:
+      "Action leads with 27M members, Wit Studio leads the studios, and average scores rise from 8.02 in 2024 to 8.43 in 2026. Television accounts for about 95% of members.",
+    tools: ["Python", "SQL", "Excel", "Power BI", "HTML, CSS, and JavaScript"],
+    images: [
+      {
+        src: "/images/anime-dashboard.jpg",
+        alt: "Anime dataset analytics dashboard with scores, studios, genres, and member counts",
+        caption: "Scores, studios, genres, and member counts, 2020–2026",
+      },
+    ],
+    metric: "8.21 avg score",
+    link: {
+      href: "https://anime-analytics-coral.vercel.app/",
+      label: "Open the live study",
+    },
   },
 ];

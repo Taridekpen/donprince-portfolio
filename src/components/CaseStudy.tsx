@@ -69,6 +69,16 @@ export function CaseStudy({ project, onClose }: CaseStudyProps) {
                   {project.title}
                 </h3>
                 <p className="mt-3 font-mono text-sm text-gold">{project.metric}</p>
+                {project.link ? (
+                  <a
+                    href={project.link.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-4 inline-block font-mono text-xs tracking-[0.16em] text-signal uppercase"
+                  >
+                    {project.link.label}
+                  </a>
+                ) : null}
               </div>
               {project.images.map((image) => (
                 <figure key={image.src}>
