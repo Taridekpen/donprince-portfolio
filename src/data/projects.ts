@@ -52,7 +52,7 @@ export const projects: Project[] = [
       "Two views of one insurance study: response and complaints, then coverage, claim amount, and lifetime value by state.",
     finding:
       "Agents drive the strongest engagement at a 14% overall response rate. Four-wheel vehicles generate the largest share of open complaints. Claim amounts fall as time since the last claim increases, and Abuja leads customer lifetime value at ₦25M.",
-    tools: ["Dashboard design", "KPI development", "Business storytelling"],
+    tools: ["Dashboard design", "KPI development", "Business storytelling", "Power BI"],
     images: [
       {
         src: "/images/dashboard-2.jpeg",

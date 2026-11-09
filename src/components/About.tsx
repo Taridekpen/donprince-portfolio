@@ -22,9 +22,11 @@ export function About() {
       <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
         <Reveal delay={0.05}>
           <p className="max-w-xl text-lg leading-relaxed text-muted">
-            {profile.summary} The work below turns those skills into dashboards
-            a decision-maker can read: volume, mix, and the number that should
-            change the next conversation.
+          Data Analyst with a strong B.Sc. Accounting background and technical expertise in Python, 
+PostgreSQL, Power BI, and Advanced Excel. Specialized in bridging the gap between raw data and 
+business strategy by transforming complex datasets into actionable financial, operational, and 
+market insights. Adept at building interactive dashboards, optimizing database queries, and 
+delivering data-driven recommendations that improve organizational revenue and efficiency
           </p>
         </Reveal>
         <Reveal delay={0.1}>
